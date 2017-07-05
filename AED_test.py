@@ -33,7 +33,7 @@ TRAINED_MODEL = 'AED_Example_Run_model.pkl'
 def parse_args():
     
     parser = argparse.ArgumentParser(description='Acoustic Event Classification')
-    parser.add_argument('--filenames', dest='filenames', help='paths to sample wav files for testing as list or single string', type=str, default='/code/BirdCLEF/AED_RELEASE/dataset/fenster_window.wav')
+    parser.add_argument('--filenames', dest='filenames', help='paths to sample wav files for testing as list or single string', type=str, default='')
     parser.add_argument('--modelname', dest='modelname', help='name of pre-trained model', type=str, default=None)
     parser.add_argument('--speclength', dest='spec_length', help='spectrogram length in seconds', type=int, default=3)
     parser.add_argument('--overlap', dest='spec_overlap', help='spectrogram overlap in seconds', type=int, default=2)
