@@ -1,0 +1,1 @@
+You can use some publicly available datasets such as UrbanSound8K for training. Additionally, you can visit freesound.org to download open source sound files. We provide three test samples of our data set used in the paper. The pre-trained model we provide is trained on 20 classes described in the paper.
