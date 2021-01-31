@@ -15,7 +15,7 @@ Please cite the paper in your publications if it helps your research.
 <b>You can download the submission here:</b> [2017_INFORMATIK_AED_CNN.pdf](https://box.tu-chemnitz.de/index.php/s/sfW010bbLEsP4Kw) <i>(Unpublished draft version)</i>
 
 ## Installation
-This is a Thenao/Lasagne implementation in Python for the classification of acoustic events based on deep features. This code is tested using Ubuntu 14.04 LTS but should work with other distributions as well.
+This is a Theano/Lasagne implementation in Python for the classification of acoustic events based on deep features. This code is tested using Ubuntu 14.04 LTS but should work with other distributions as well.
 
 First, you need to install Python 2.7 and the CUDA-Toolkit for GPU acceleration. After that, you can clone the project and run the Python package tool PIP to install most of the relevant dependencies:
 
